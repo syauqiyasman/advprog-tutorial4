@@ -41,6 +41,16 @@ public class ProductRepository {
         return null;
     }
 
+    public boolean delete(String id) {
+        for (Product product : productData) {
+            if (product.getProductId().equals(id)) {
+                productData.remove(product);
+                return true;
+            }
+        }
+        return false;
+    }
+
     public Iterator<Product> findAll() {
         return productData.iterator();
     }
