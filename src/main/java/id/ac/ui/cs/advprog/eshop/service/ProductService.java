@@ -6,14 +6,14 @@ import java.util.List;
 
 public interface ProductService {
 
-    public Product create(Product product);
+    Product create(Product product);
 
-    public List<Product> findAll();
+    List<Product> findAll();
 
-    public Product edit(Product product);
+    Product edit(Product product);
 
-    public Product findProductById(String id);
+    Product findProductById(String id);
 
-    public boolean delete(String id);
+    boolean delete(String id);
 
 }
