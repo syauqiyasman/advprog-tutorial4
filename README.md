@@ -1,4 +1,4 @@
-link deployment: [advprog-tutorial2-syauqi.koyeb.app/](advprog-tutorial2-syauqi.koyeb.app/)
+link deployment: [https://advprog-tutorial2-syauqi.koyeb.app/](advprog-tutorial2-syauqi.koyeb.app/)
 
 # Reflection
 ## Code quality issue yang telah diperbaiki
