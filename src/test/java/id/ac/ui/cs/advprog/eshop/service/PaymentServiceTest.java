@@ -24,7 +24,7 @@ class PaymentServiceTest {
     private PaymentRepository paymentRepository;
 
     @InjectMocks
-    private PaymentService paymentService;
+    private PaymentServiceImpl paymentService;
 
     private Order mockOrder;
 
